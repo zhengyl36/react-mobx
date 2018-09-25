@@ -13,5 +13,5 @@
 - 添加antd
 - 添加scss
 - 添加mobx/react-mobx
-
-
+- json放在public文件夹下
+- 添加cdn地址加速

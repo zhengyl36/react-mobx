@@ -104,6 +104,11 @@ module.exports = {
       new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
     ],
   },
+  externals: {
+      'react': 'React',
+      'react-dom': 'ReactDOM',
+      'react-router': 'ReactRouter',
+  },
   module: {
     strictExportPresence: true,
     rules: [

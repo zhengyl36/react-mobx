@@ -1,9 +1,9 @@
 import React from 'react';
 import {HashRouter, Route, Redirect, Switch} from 'react-router-dom';
-import asyncComponent from '../components/AsyncComponent'
+import asyncComponent from '../modules/AsyncComponent'
 
-const Login = asyncComponent(() => import("../components/Login"));
-const Home = asyncComponent(() => import("../components/Home"));
+const Login = asyncComponent(() => import("../modules/Login"));
+const Home = asyncComponent(() => import("../modules/Home"));
 
 const routeConfig = (
 	<HashRouter>
