@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.scss';
+import './index.less';
 import {observer, inject} from 'mobx-react'
 import {Link} from 'react-router-dom'
 

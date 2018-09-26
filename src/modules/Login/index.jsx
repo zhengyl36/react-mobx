@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.scss'
+import './index.less'
 import {inject, observer} from "mobx-react";
 import {HTTPGet} from '../../config/http'
 
